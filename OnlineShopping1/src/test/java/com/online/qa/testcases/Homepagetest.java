@@ -68,4 +68,9 @@ public class Homepagetest extends Base {
 	
             
 	}
+	@Test(priority=7)
+	public void Test7() throws InterruptedException {
+		
+        System.out.println("Test7 executed finally");
+	}
 }
